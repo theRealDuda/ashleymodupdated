@@ -1,0 +1,78 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/Festivals.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/WizardHouse",
+      "Entries": {
+        "1443/f theduda.ashleymodremake_Ashley 1500": "playful/-1000 -1000/farmer 8 24 0 theduda.ashleymodremake_Ashley 4 19 2/skippable/viewport 8 18 true/pause 1000/move farmer 0 -5 3/pause 250/emote theduda.ashleymodremake_Ashley 16/faceDirection theduda.ashleymodremake_Ashley 1 true/speak theduda.ashleymodremake_Ashley \"Hello, @!\"/move theduda.ashleymodremake_Ashley 2 0 1/speak theduda.ashleymodremake_Ashley \"I finished up a new brew, just for you!$h#$b#So, I'd like you to try it out.$h#$b#Come over here.$h\"/move theduda.ashleymodremake_Ashley -3 0 1 false/move farmer -4 0 2/pause 500/speak theduda.ashleymodremake_Ashley \"Go ahead, take a sip!$h#$b#I promise it's not dangerous.\"/pause 250/question fork1 \"#Try the brew#Deny the brew\"/fork ashdeny/friendship theduda.ashleymodremake_Ashley 50/pause 500/farmerEat 184/pause 4000/emote farmer 8/pause 1000/emote theduda.ashleymodremake_Ashley 28/speak theduda.ashleymodremake_Ashley \"Of course. It doesn't work.$s\"/faceDirection farmer 0/move theduda.ashleymodremake_Ashley 0 -1 0/move theduda.ashleymodremake_Ashley 4 0 1/faceDirection farmer 1/pause 1000/speak theduda.ashleymodremake_Ashley \"The wizard tells me I need to 'adapt', but...#$b#It's hard.$s\"/move theduda.ashleymodremake_Ashley 0 1 2/pause 250/speak theduda.ashleymodremake_Ashley \"Without Red, I'm practically an entirely different person now.$s\"/faceDirection theduda.ashleymodremake_Ashley 3/pause 1000/speak theduda.ashleymodremake_Ashley \"But, I can live without him if I have to.$s#$b#Maybe you could be my assistant one day.$h\"/pause 1000/faceDirection theduda.ashleymodremake_Ashley 2/pause 1000/speak theduda.ashleymodremake_Ashley \"Well, thanks for coming by today.$h#$b#I should be getting back to my work now.\"/end",
+        "ashdeny": "friendship theduda.ashleymodremake_Ashley -1000/emote theduda.ashleymodremake_Ashley 12/speak theduda.ashleymodremake_Ashley \"I make a brew just for you and you won't even try it?$a#$b#Whatever. I'm just going to go back to working on my own brews.$a\"/end"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/theduda.ashleymodremake_Ashley",
+      "FromFile": "assets/sprites/ashleySprites.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/theduda.ashleymodremake_Ashley",
+      "FromFile": "assets/sprites/ashleyPortraits.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/theduda.ashleymodremake_Ashley",
+      "FromFile": "assets/dialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/theduda.ashleymodremake_Ashley",
+      "FromFile": "assets/schedule.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "theduda.ashleymodremake_Ashley": "Thanks! I needed this!$h/64 336/Thanks. I could use this.$h/-28 420 257 281 107 305 247/What purpose do you expect this to serve for me?$s/80 348 346 303 -74/This is a waste of my time. I'm in the middle of something./390 388 330 571 568 569/Um... thanks?$u// "
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "Wizard": "Oh, did you want to speak to Ashley? She didn't want to come.#$b#She's busy working on her brews in the tower."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Ashley": {
+          "DisplayName": "Ashley",
+          "BirthSeason": "Fall",
+          "BirthDay": 8,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Child",
+          "Manner": "Rude",
+          "SocialAnxiety": "Shy",
+          "Optimism": "negative",
+
+          "CanBeRomanced": false,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "WizardHouse",
+              "Tile": { "X": 4, "Y": 17 },
+              "Direction": "Left"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

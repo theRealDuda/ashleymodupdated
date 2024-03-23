@@ -1,0 +1,12 @@
+{
+  "Name": "Ashley Mod Remake",
+  "Author": "the duda",
+  "Version": "2.0.0",
+  "Description": "Adds a unique new NPC, Ashley, to the Wizard Tower",
+  "UniqueID": "theduda.ashleymodremake",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

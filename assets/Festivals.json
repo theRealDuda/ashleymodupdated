@@ -1,0 +1,78 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Set-Up_additionalCharacters"],
+          "Value": "theduda.ashleymodremake_Ashley 39 13 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Set-Up_additionalCharacters"],
+          "Value": "theduda.ashleymodremake_Ashley 14 39 1",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Main-Event_additionalCharacters"],
+          "Value": "theduda.ashleymodremake_Ashley 41 5 0",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "TextOperations": [
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Set-Up_additionalCharacters"],
+          "Value": "theduda.ashleymodremake_Ashley 90 4 2",
+          "Delimiter": "/"
+        },
+        {
+          "Operation": "Append",
+          "Target": ["Entries", "Main-Event_additionalCharacters"],
+          "Value": "theduda.ashleymodremake_Ashley 40 31 2",
+          "Delimiter": "/"
+        }
+      ]
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/fall16",
+      "Entries": {
+        "theduda.ashleymodremake_Ashley": "This is my element.$h"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer11",
+      "Entries": {
+        "theduda.ashleymodremake_Ashley": "The wizard made me come here... why should I care?$a#$e#Merpeople are weird.$a"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Festivals/summer28",
+      "Entries": {
+        "theduda.ashleymodremake_Ashley": "Lunaloos, huh?#$b#They'd probably make a good ingredient.$h#$e#The wizard would kill me.$u"
+      }
+    }
+  ]
+}
